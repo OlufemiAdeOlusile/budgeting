@@ -144,11 +144,12 @@ This is actually a bug, as we cannot update the table when we have only one Item
 ### BUILD
 
 ### To Run
-npm run cy:run-chrome `(Run Test in Chrome Interactive mode)`
-npm run cy:run-firefox  `(Run Test in FireFox Interactive mode)`
-npm run cy:run-electron `(Run Test in Electron Interactive mode)`
-npm run "cy:run-dashboard" `(Run Test headless with dashboard for test html report)`
-> To view report please run test in CLI and look for HTML Report Link at the end of Test
+- `npm run cy:run-chrome` Run Test in Chrome Interactive mode
+- `npm run cy:run-firefox`  Run Test in FireFox Interactive mode
+- `npm run cy:run-electron` Run Test in Electron Interactive mode
+- `npm run cy:run-dashboard` Run Test headless with dashboard for test html report
+
+To view report please run test in CLI and look for HTML Report Link at the end of Test
 > ![REPORT](images/report.png)
 >
 
