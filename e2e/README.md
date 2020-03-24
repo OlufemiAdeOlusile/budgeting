@@ -149,8 +149,9 @@ npm run cy:run-firefox  `(Run Test in FireFox Interactive mode)`
 npm run cy:run-electron `(Run Test in Electron Interactive mode)`
 npm run "cy:run-dashboard" `(Run Test headless with dashboard for test html report)`
 > To view report please run test in CLI and look for HTML Report Link at the end of Test
-> ![REPORT](e2e/images/report.png)
+> ![REPORT](images/report.png)
+>
 
-TEST RUN EXAMPLE
-![REPORT](e2e/images/showreport.png)
+## TEST RUN EXAMPLE
+![REPORT](images/showreport.png)
 
