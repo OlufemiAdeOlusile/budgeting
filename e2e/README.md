@@ -20,11 +20,11 @@ As such, it offers more features than the usual Todo App.
 
 #### OBJECTIVE
 
-The objective of this test plan, is to identify and test E2E positive and negative scenarios. 
+The objective of this test plan, is to identify and test the budget app via E2E positive and negative scenarios. 
 
 #### TASKS
 
-Identify Edge Cases (Usability, Functional and E2E tests) Automated Tests E2E tests
+Identify Edge Cases (Usability, Functional and E2E tests) and Automate E2E tests.
 
 #### SCOPE:
 
@@ -32,7 +32,7 @@ These tests are limited to only functional E2E tests via the GUI. We will not be
 
 #### Test Strategy
 
-Exploratory testing will be conducted, to derive Usability testing scenarios and Functional testing scenarios. E2E tests will be automated with Cypress and will be able to run headless via the CI.
+Exploratory testing will be conducted, to derive Usability testing scenarios and Functional testing scenarios. E2E tests will be automated via Cypress and will be run headless via the CI or Interactive.
 
 
 ### TEST SCENARIOS
@@ -44,7 +44,7 @@ Exploratory testing will be conducted, to derive Usability testing scenarios and
 1. Budget Link should be displayed, and clickable
 2. Balance Component should be displayed, with Total Inflow, Total Outflow, and Working Balance.
 3. Table with Category Description and Amount should be displayed and properly aligned.
-4. Check if each row on the table is clickable and can be updated, canceled, or deleted.
+4. Check each row on the table is clickable and can be updated, canceled, or deleted.
 5. Check that new category, description and amount can be added to the table
 6. Scrolling on each row on the table should be highlighted in grey
 7. Balance Component cannot be edited.
@@ -139,7 +139,7 @@ Exploratory testing will be conducted, to derive Usability testing scenarios and
 # CYPRESS AUTOMATION
 
 Three E2E Scenarios run, with one failing Scenario (Verify that a user can update a category amount when only one row exists on the table), 
-This is actually a bug, as we cannot update the table when we have only one Item on it. 
+This is actually a defect, as we cannot update the table when we have only one Item on it. 
 
 ### BUILD
 - Navigate to e2e folder

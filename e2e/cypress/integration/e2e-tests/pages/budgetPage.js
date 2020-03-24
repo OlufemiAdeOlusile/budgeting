@@ -10,7 +10,7 @@ const ADD_BUTTON = '.containers-EntryFormRow-style__btnGreen'
 const POS_FLOW = '.components-Balance-style__pos'
 const NEG_FLOW = '.components-Balance-style__neg'
 const TIMEOUT = 100000;
-const WAIT_TIMEOUT = 1000;
+const WAIT_TIMEOUT = 5000;
 
 class BudgetPage extends BasePage {
 
