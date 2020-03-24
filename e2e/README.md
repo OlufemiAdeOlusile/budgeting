@@ -38,10 +38,9 @@ Exploratory testing will be conducted, to derive Usability testing scenarios and
 ### TEST SCENARIOS
 
 
-### Usability Testing:
+### Usability Testing
 
 #### Budget Page
- 
 1. Budget Link should be displayed, and clickable
 2. Balance Component should be displayed, with Total Inflow, Total Outflow, and Working Balance.
 3. Table with Category Description and Amount should be displayed and properly aligned.
@@ -62,7 +61,6 @@ Exploratory testing will be conducted, to derive Usability testing scenarios and
  
  
 #### Reports Page
-
 1. Reports Link should be displayed, clickable and should work properly
 2. Reports Link should be highlighted when clicked and loaded
 3. Inflow vs. Outflow and Spending Category sub menus should be displayed
@@ -73,10 +71,9 @@ Exploratory testing will be conducted, to derive Usability testing scenarios and
 8. Check that in Spending by Category each color matches each legend in the pie chart
 9. Check that in Spending by Category the amounts are proportionate to the representation on the pie chart
 
-### Functional Testing:
+### Functional Testing
  
 #### Budget Page
-
 1. Verify that Total Inflow subtracted from the Total Outflow gives you the correct Working Balance 
 2. Verify that new Categories, Description, and Value can be added.
 3. Verify that ADD button is not enabled when alphabets are inputted into the Value text field
@@ -98,7 +95,9 @@ Exploratory testing will be conducted, to derive Usability testing scenarios and
 6. Verify that Income from budget table should not be shown as a legend in reports. `(Please check with the PO)`.
  
 
-### E2E Testing Scenarios:
+
+
+### E2E Testing Scenarios
 
 - [x] Feature: Validate budget functionality
 
